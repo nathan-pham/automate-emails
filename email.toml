@@ -1,0 +1,36 @@
+[email]
+subject = "Late Midyear Update | Nathan Pham | Application ID: {{application_id}}"
+body = """
+Dear college admissions,
+
+My name is Nathan Pham, and I attend Del Oro High School in Loomis, California. I am interested in attending {{university_name}} and wanted to update you on significant aspects of my application. I am now a confirmed National Merit Finalist and recipient of the Seal of Biliteracy for Spanish. Additionally, after completing a series of rigorous interviews, Replit (a collaborative browser based IDE) offered me a workspace engineering role. I have also changed my school schedule to better align with my long term career goals.
+
+Thank you for considering my application. If you have any questions, please let me know.
+
+Best,
+Nathan Pham
+
+[nathanpham.me](https://nathanpham.me)  
+[github/nathan-pham](https://github.com/nathan-pham)
+"""
+
+[recipient]
+universities = [
+    { email = "nathanpham.me@gmail.com", application_id = "TEST", university_name = "Test University" },
+    { email = "", application_id = "10001", university_name = "MIT" },
+    { email = "", application_id = "", university_name = "Brown University" },
+    { email = "", application_id = "", university_name = "Duke University" },
+    { email = "", application_id = "", university_name = "Harvard University" },
+    { email = "", application_id = "", university_name = "Princeton University" },
+    { email = "", application_id = "", university_name = "Stanford University" },
+    { email = "", application_id = "", university_name = "Dartmouth" },
+    { email = "", application_id = "", university_name = "University of Pennsylvania" },
+    { email = "", application_id = "", university_name = "Yale University" },
+    { email = "", application_id = "", university_name = "Rice University" },
+    { email = "", application_id = "", university_name = "University of Southern California" },
+    { email = "", application_id = "", university_name = "UCLA" },
+    { email = "", application_id = "", university_name = "Georgia Institute of Technology" },
+    { email = "", application_id = "", university_name = "Caltech" },
+    { email = "", application_id = "", university_name = "Carnegie Mellon University" },
+    { email = "", application_id = "", university_name = "NYU" },
+]

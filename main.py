@@ -6,6 +6,10 @@ from utils_email import get_creds, send_email
 def main():
     json = load_toml()
     for university in json["recipient"]["universities"]:
+        email = university["email"]
+        if len(email) == 0:
+            pass
+
         body_text = format_template(json["email"]['body'], university)
         send_email(
             recipient=university["email"],
@@ -14,7 +18,7 @@ def main():
             body_html=markdown(body_text)
         )
 
-        break
+        print(f"sending email to {email}")
 
 
 if __name__ == "__main__":
